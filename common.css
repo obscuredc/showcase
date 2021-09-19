@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#content {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    padding-left: 2.3%;
+}
+#content-main-holder {
+    border-left-color: yellow;
+    border-left-style: solid;
+    border-left-width: 3px;
+    padding-left: 10px;
+}
+@keyframes rainbow-text {
+    0% {color: red;}
+    33% {color: blue;}
+    66% {color: green;}
+    100% {color: yellow;}
+}
+#title {
+    text-shadow: 1px 1px orange;
+    justify-content: center;
+    
+}
+.rainbow-text {
+    animation-name: rainbow-text;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+}
+#title-animated {
+    animation-name: rainbow-text;
+    animation-duration: 7.5s;
+    animation-iteration-count: infinite;
+}
+.flex {
+    display: flex;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+#links {
+    width: 50%;
+    height: 100%;
+    padding-left: 23%;
+}
+.links-list-entry {
+    width: 90%;
+    height: 35%;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+    transition: background-color 4s, width 2s, height 3s, border-color 4s;
+}
+.links-list-entry:hover {
+    width: 100%;
+    height: 45%;
+    background-color: rgb(19, 18, 18);
+    border-color: rgb(19, 18, 18);
+}
+#top {
+    padding-left: 22%;
+}
+#story {
+    margin-top: 50px;
+}
+#story-title {
+    padding-left: 22%;
+    width: 50%;
+}
+#story-prework-container {
+    padding-left: 18%;
+}
+#story-prework-container2 {
+    padding-left: 18%;
+}
+#story-prework-container2 {
+    margin-top: 100px;
+}
+#story-title-bad {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    transition: background-color 2s, border-color 2s;
+}
+#story-title-bad:hover {
+    background-color: lightblue;
+    border-color: lightblue;
+}
+.whiteline {
+    background-color: white;
+}
+#story-prework-container-helper {
+    height: 1px;
+    width: 50%;
+    padding-left: 18%;
+}
